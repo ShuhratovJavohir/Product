@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-top">
+        <div class="wrapper">
+          <nav class="nav">
+            <span class="nav__logo"
+              ><img
+                class="nav__logo__img"
+                src="./img/logo.svg"
+                alt="LOGO"
+              />Product</span
+            >
+            <ul class="nav-list">
+              <li class="nav-list__item">
+                <a class="nav__link nav__link__active" href="#">Product</a>
+              </li>
+              <li class="nav-list__item">
+                <a class="nav__link" href="#">Customers</a>
+              </li>
+              <li class="nav-list__item">
+                <a class="nav__link" href="#">Pricing</a>
+              </li>
+              <li class="nav-list__item">
+                <a class="nav__link" href="#">Resources</a>
+              </li>
+              <li class="nav-list__item">
+                <button class="btn btn__sign-in">Sign In</button>
+              </li>
+              <li class="nav-list__item">
+                <button class="btn btn__sign-up">Sign Up</button>
+              </li>
+              <input
+                class="darkmode"
+                type="checkbox"
+                onchange="headelChange(this.checked)"
+              />
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="header-content">
+          <div class="header-content__text">
+            <h1 class="header-content__title">Work at the speed of thought</h1>
+            <p class="header-content__subtitle">
+              Tools, tutorials, design and innovation experts, all in one place!
+              The most intuitive way to imagine your next user experience.
+            </p>
+            <div class="header-content__started">
+              <button class="btn btn__get-started">Get started</button>
+              <a class="watch__link" href="#"
+                ><img
+                  class="watch__link__triangle"
+                  src="./img/triangle.svg"
+                  alt="triangle"
+                />
+                Watch the Video</a
+              >
+            </div>
+          </div>
+          <img class="header-content__img" src="./img/intro.png" alt="INTRO" />
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="product">
+        <div class="wrapper">
+          <h1 class="product__title">Product was Built Specifically for You</h1>
+        </div>
+        <div class="product-bg">
+          <div class="wrapper">
+            <div class="product-content">
+              <div class="product-content__item">
+                <img
+                  class="product-content__img"
+                  src="./img/for-you-icon-1.svg"
+                  alt="icon-1"
+                />
+                <h2 class="product-content__title">First click tests</h2>
+                <p class="product-content__sutitel">
+                  While most people enjoy casino gambling,
+                </p>
+              </div>
+
+              <div class="product-content__item">
+                <img
+                  class="product-content__img"
+                  src="./img/for-you-icon-2.svg"
+                  alt="icon-2"
+                />
+                <h2 class="product-content__title">Design surveys</h2>
+                <p class="product-content__sutitel">
+                  Sports betting, lottery and bingo playing for the fun
+                </p>
+              </div>
+
+              <div class="product-content__item">
+                <img
+                  class="product-content__img"
+                  src="./img/for-you-icon-3.svg"
+                  alt="icon-3"
+                />
+                <h2 class="product-content__title">Preference tests</h2>
+                <p class="product-content__sutitel">
+                  The Myspace page defines the individual.
+                </p>
+              </div>
+
+              <div class="product-content__item">
+                <img
+                  class="product-content__img"
+                  src="./img/for-you-icon-4.svg"
+                  alt="icon-4"
+                />
+                <h2 class="product-content__title">Five second tests</h2>
+                <p class="product-content__sutitel">
+                  Personal choices and the overall personality of the person.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services">
+        <div class="wrapper">
+          <div class="services-block">
+            <div class="services-block__item">
+              <div class="services-text">
+                <h2 class="services__subtitle services__subtitle__first">
+                  Effortless Validation for
+                </h2>
+                <h1 class="services__title">Management</h1>
+                <p class="services__info">
+                  The Myspace page defines the individual, his or her
+                  characteristics, traits, personal choices and the overall
+                  personality of the person.
+                </p>
+                <h2 class="services__subtitle">Accessory makers</h2>
+                <p class="services__info">
+                  While most people enjoy casino gambling, sports betting,
+                  lottery and bingo playing for the fun
+                </p>
+                <h2 class="services__subtitle">Alterationists</h2>
+                <p class="services__info">
+                  If you are looking for a new way to promote your business that
+                  won’t cost you more money,
+                </p>
+              </div>
+              <img
+                class="services__img"
+                src="./img/management.png"
+                alt="management"
+              />
+            </div>
+
+            <div class="services-block__item">
+              <img
+                class="services__img"
+                src="./img/customer-support.png"
+                alt="management"
+              />
+              <div class="services-text">
+                <h2 class="services__subtitle services__subtitle__first">
+                  Easier decision making for
+                </h2>
+                <h1 class="services__title">Customer Support</h1>
+                <p class="services__info">
+                  The Myspace page defines the individual, his or her
+                  characteristics, traits, personal choices and the overall
+                  personality of the person.
+                </p>
+                <div class="supporting">
+                  <div class="supporting__item">
+                    <img
+                      class="check-box check-box__orange"
+                      src="./img/checked.svg"
+                      alt="check"
+                    />
+                    Never worry about overpaying for your energy again.
+                  </div>
+
+                  <div class="supporting__item">
+                    <img
+                      class="check-box check-box__red"
+                      src="./img/checked.svg"
+                      alt="check"
+                    />
+                    Never worry about overpaying for your energy again.
+                  </div>
+
+                  <div class="supporting__item">
+                    <img
+                      class="check-box check-box__blue"
+                      src="./img/checked.svg"
+                      alt="check"
+                    />
+                    Never worry about overpaying for your energy again.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="services-block__item">
+              <div class="services-text">
+                <h2 class="services__subtitle services__subtitle__first">
+                  Optimisation for
+                </h2>
+                <h1 class="services__title">Collaborative</h1>
+                <p class="services__info">
+                  Few would argue that, despite the advancements of feminism
+                  over the past three decades, women still face a double
+                  standard when it comes to their behavior.
+                </p>
+                <h2 class="services__subtitle">Accessory makers</h2>
+                <p class="services__info">
+                  While most people enjoy casino gambling, sports betting,
+                  lottery and bingo playing for the fun
+                </p>
+                <h2 class="services__subtitle">Alterationists</h2>
+                <p class="services__info">
+                  If you are looking for a new way to promote your business that
+                  won’t cost you more money,
+                </p>
+              </div>
+              <img
+                class="services__img"
+                src="./img/collaborative.png"
+                alt="management"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="process">
+        <div class="wrapper">
+          <h1 class="process__title">Quick & Easy Process</h1>
+          <p class="process__subtitle">
+            Do you require some help for your project: Conception workshop,
+            prototyping, marketing strategy, landing page, Ux/UI?
+          </p>
+        </div>
+        <div class="wrapper">
+          <div class="process-content">
+            <div class="process-content-block">
+              <div class="process-item">
+                <div class="process-item__img">
+                  <img
+                    class="team__img team__img__left"
+                    src="./img/contact-team-1.png"
+                    alt="team"
+                  />
+                </div>
+                <div class="process-item__text">
+                  <p class="process-item__text__subtitle">
+                    I can take care of your pitch
+                  </p>
+                </div>
+                <span class="process-cloud cloud-left"></span>
+              </div>
+
+              <div class="process-item">
+                <div class="process-item__text">
+                  <p class="process-item__text__subtitle">
+                    I can design you website
+                  </p>
+                </div>
+                <span class="process-cloud cloud-right"></span>
+                <div class="process-item__img">
+                  <img
+                    class="team__img team__img__right"
+                    src="./img/contact-team-3.png"
+                    alt="team"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="process-content-block">
+              <div class="process-item">
+                <div class="process-item__text">
+                  <p class="process-item__text__subtitle">
+                    I can prototype your app
+                  </p>
+                </div>
+                <span class="process-cloud cloud-right"></span>
+                <div class="process-item__img">
+                  <img
+                    class="team__img team__img__right"
+                    src="./img/contact-team-2.png"
+                    alt="team"
+                  />
+                </div>
+              </div>
+
+              <div class="process-item">
+                <div class="process-item__img">
+                  <img
+                    class="team__img team__img__left"
+                    src="./img/contact-team-4.png"
+                    alt="team"
+                  />
+                </div>
+                <div class="process-item__text">
+                  <p class="process-item__text__subtitle">
+                    I can help marketing strategy
+                  </p>
+                </div>
+                <span class="process-cloud cloud-left"></span>
+              </div>
+            </div>
+          </div>
+          <div class="btn-contact">
+            <button class="btn contact">Contact our expert</button>
+          </div>
+        </div>
+      </section>
+      <section class="strategy">
+        <div class="wrapper">
+          <h1 class="strategy__title">Contents Strategies</h1>
+          <p class="strategy__subtitle">
+            We focus on ergonomics and meeting you where you work. It's only a
+            keystroke away.
+          </p>
+          <div class="strategy-content">
+            <div class="strategy__item">
+              <img
+                class="strategy__item__img"
+                src="./img/contents-strategies-1.png"
+                alt="contents-strategies-1"
+              />
+              <div class="strategy__item__info">
+                <p class="strategy__item__subtitle">
+                  By
+                  <span class="strategy__item__subtitle__name">Wahid Ari</span>
+                  | 03 March 2019
+                </p>
+                <h1 class="strategy__item__title">
+                  Increasing Prosperity With Positive Thinking
+                </h1>
+              </div>
+            </div>
+
+            <div class="strategy__item">
+              <img
+                class="strategy__item__img"
+                src="./img/contents-strategies-2.png"
+                alt="contents-strategies-1"
+              />
+              <div class="strategy__item__info">
+                <p class="strategy__item__subtitle">
+                  By
+                  <span class="strategy__item__subtitle__name">Wahid Ari</span>
+                  | 03 March 2019
+                </p>
+                <h1 class="strategy__item__title strategy__item__title__active">
+                  Increasing Prosperity With Positive Thinking
+                </h1>
+              </div>
+            </div>
+
+            <div class="strategy__item">
+              <img
+                class="strategy__item__img"
+                src="./img/contents-strategies-3.png"
+                alt="contents-strategies-1"
+              />
+              <div class="strategy__item__info">
+                <p class="strategy__item__subtitle">
+                  By
+                  <span class="strategy__item__subtitle__name">Wahid Ari</span>
+                  | 03 March 2019
+                </p>
+                <h1 class="strategy__item__title">
+                  Increasing Prosperity With Positive Thinking
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="slider-chek">
+            <button class="choice-btn"></button>
+            <button class="choice-btn choice-btn-active"></button>
+            <button class="choice-btn"></button>
+          </div>
+        </div>
+      </section>
+      <section class="price">
+        <div class="wrapper">
+          <h1 class="price__title">Price Table</h1>
+          <p class="price__subtitle">We offer competitive price</p>
+          <div class="price-content">
+            <div class="price-item">
+              <h1 class="price-content__title">Free</h1>
+              <p class="price-content__subtitle">Brief price description</p>
+              <div class="price-block">
+                <h1 class="price-price">0</h1>
+                <div class="price-currency">
+                  <p class="price__dollar">$</p>
+                  <p class="price__month">Per / month</p>
+                </div>
+              </div>
+              <div class="price-info">
+                <p>Only 2 Operators</p>
+                <p>Notifications</p>
+                <p>Landing Pages</p>
+              </div>
+              <button class="btn btn-order">Order Now</button>
+            </div>
+
+            <div class="price-item price-item__center">
+              <h1 class="price-content__title__center">Standard</h1>
+              <p class="price-content__subtitle__center">
+                Brief price description
+              </p>
+              <div class="price-block">
+                <h1 class="price-price__center">5</h1>
+                <div class="price-currency">
+                  <p class="price__dollar__center">$</p>
+                  <p class="price__month">Per / month</p>
+                </div>
+              </div>
+              <div class="price-info__center">
+                <p>5+ Operators</p>
+                <p>Notifications</p>
+                <p>Landing Pages</p>
+              </div>
+              <button class="btn btn-order__center">Order Now</button>
+            </div>
+
+            <div class="price-item">
+              <h1 class="price-content__title">Premium</h1>
+              <p class="price-content__subtitle">Brief price description</p>
+              <div class="price-block">
+                <h1 class="price-price">10</h1>
+                <div class="price-currency">
+                  <p class="price__dollar">$</p>
+                  <p class="price__month">Per / month</p>
+                </div>
+              </div>
+              <div class="price-info">
+                <p>10+ Operators</p>
+                <p>Notifications</p>
+                <p>Landing Pages</p>
+              </div>
+              <button class="btn btn-order">Order Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="wrapper">
+          <h1 class="reviews__title">What Clients Say</h1>
+          <p class="reviews__subtitle">
+            Problems trying to resolve the conflict between <br />
+            the two major realms of Classical physics: Newtonian mechanics
+          </p>
+          <div class="reviews-content">
+            <div class="reviews-item">
+              <img class="reviews__img" src="./img/stars.svg" alt="star" />
+              <p class="reiews__text">
+                Product helps you see how many more days you need to work to
+                reach your financial goal.
+              </p>
+              <div class="reviews-user">
+                <img
+                  class="reviews-user__img"
+                  src="./img/reviews-1.png"
+                  alt="user"
+                />
+                <div class="reviews-user-info">
+                  <p class="reviews-user__company">Wahid Ari</p>
+                  <p class="reviews-user__job">Designer</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="reviews-item">
+              <img class="reviews__img" src="./img/stars.svg" alt="star" />
+              <p class="reiews__text">
+                Product helps you see how many more days you need to work to
+                reach your financial goal.
+              </p>
+              <div class="reviews-user">
+                <img
+                  class="reviews-user__img"
+                  src="./img/reviews-2.png"
+                  alt="user"
+                />
+                <div class="reviews-user-info">
+                  <p class="reviews-user__company">Wahid Ari</p>
+                  <p class="reviews-user__job">Designer</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="reviews-item">
+              <img class="reviews__img" src="./img/stars.svg" alt="star" />
+              <p class="reiews__text">
+                Product helps you see how many more days you need to work to
+                reach your financial goal.
+              </p>
+              <div class="reviews-user">
+                <img
+                  class="reviews-user__img"
+                  src="./img/reviews-3.png"
+                  alt="user"
+                />
+                <div class="reviews-user-info">
+                  <p class="reviews-user__company">Wahid Ari</p>
+                  <p class="reviews-user__job">Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="development">
+        <div class="wrapper">
+          <div class="development-content">
+            <div class="development-content-text">
+              <h2 class="development-content-text__title">
+                Join 100 Compannies who boost their business with Product
+              </h2>
+              <button class="btn btn-get-this">Get This</button>
+            </div>
+            <img
+              class="development-content__img"
+              src="./img/development.png"
+              alt="development"
+            />
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="wrapper">
+          <div class="footer-content">
+            <div class="footer-logo">
+              <span class="nav__logo">
+                <img
+                  class="nav__logo__img"
+                  src="./img/logo.svg"
+                  alt="LOGO"
+                />Product</span
+              >
+              <div class="footer-social">
+                <a class="social__link" href="#">
+                  <svg
+                    class="social__item"
+                    width="24"
+                    height="25"
+                    viewBox="0 0 24 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M17 2.01611H7C4.23858 2.01611 2 4.25469 2 7.01611V17.0161C2 19.7775 4.23858 22.0161 7 22.0161H17C19.7614 22.0161 22 19.7775 22 17.0161V7.01611C22 4.25469 19.7614 2.01611 17 2.01611Z"
+                      stroke=""
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M16 11.3859C16.1234 12.2182 15.9812 13.0681 15.5937 13.8149C15.2062 14.5617 14.5931 15.1673 13.8416 15.5456C13.0901 15.9239 12.2384 16.0555 11.4077 15.9219C10.5771 15.7882 9.80971 15.396 9.21479 14.8011C8.61987 14.2062 8.22768 13.4388 8.09402 12.6081C7.96035 11.7775 8.09202 10.9258 8.47028 10.1743C8.84854 9.42278 9.45414 8.80967 10.2009 8.42217C10.9477 8.03467 11.7977 7.89251 12.63 8.01593C13.4789 8.14181 14.2648 8.53739 14.8716 9.14423C15.4785 9.75108 15.8741 10.537 16 11.3859Z"
+                      stroke=""
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M17.5 6.51611H17.51"
+                      stroke=""
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+                <a class="social__link" href="#">
+                  <svg
+                    class="social__item"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z"
+                      stroke=""
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+                <a class="social__link" href="#">
+                  <svg
+                    class="social__item"
+                    width="24"
+                    height="20"
+                    viewBox="0 0 24 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M23 1.01006C22.0424 1.68553 20.9821 2.20217 19.86 2.54006C19.2577 1.84757 18.4573 1.35675 17.567 1.13398C16.6767 0.911216 15.7395 0.967251 14.8821 1.29451C14.0247 1.62177 13.2884 2.20446 12.773 2.96377C12.2575 3.72309 11.9877 4.62239 12 5.54006V6.54006C10.2426 6.58562 8.50127 6.19587 6.93101 5.4055C5.36074 4.61513 4.01032 3.44869 3 2.01006C3 2.01006 -1 11.0101 8 15.0101C5.94053 16.408 3.48716 17.109 1 17.0101C10 22.0101 21 17.0101 21 5.51006C20.9991 5.23151 20.9723 4.95365 20.92 4.68006C21.9406 3.67355 22.6608 2.40277 23 1.01006V1.01006Z"
+                      stroke=""
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <!-- ////////footer-logo -->
+            <div class="footer-resource">
+              <h3 class="resource__title">Resource</h3>
+              <p class="resource__item">About Us</p>
+              <p class="resource__item">Blog</p>
+              <p class="resource__item">Contact</p>
+              <p class="resource__item">FAQ</p>
+            </div>
+
+            <div class="footer-legal-stuff">
+              <h3 class="legal-stuff__title">Legal Stuff</h3>
+              <p class="legal-stuff__item">Disclaimer</p>
+              <p class="legal-stuff__item">Financing</p>
+              <p class="legal-stuff__item">Privacy Policy</p>
+              <p class="legal-stuff__item">Terms of Service</p>
+            </div>
+
+            <div class="footer-deal">
+              <h1 class="footer-deal__title">
+                knowing you're always on the best energy deal.
+              </h1>
+
+              <input class="footer-form__input" type="text" /> <br />
+              <button class="btn sign-up-now">Sign up Now</button>
+            </div>
+          </div>
+        </div>
+        <p class="figmaland">Made With Love By Figmaland All Right Reserved</p>
+      </footer>
+    </main>
+  </body>
+</html>
